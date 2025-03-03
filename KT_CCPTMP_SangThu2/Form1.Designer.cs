@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.lbUserName = new System.Windows.Forms.Label();
-            this.textboxusername = new System.Windows.Forms.TextBox();
+            this.textboxUsername = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textboxmatkhau = new System.Windows.Forms.TextBox();
+            this.textboxMatkhau = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -44,12 +44,12 @@
             this.lbUserName.TabIndex = 0;
             this.lbUserName.Text = "tên đăng nhập";
             // 
-            // textboxusername
+            // textboxUsername
             // 
-            this.textboxusername.Location = new System.Drawing.Point(274, 106);
-            this.textboxusername.Name = "textboxusername";
-            this.textboxusername.Size = new System.Drawing.Size(345, 22);
-            this.textboxusername.TabIndex = 1;
+            this.textboxUsername.Location = new System.Drawing.Point(274, 106);
+            this.textboxUsername.Name = "textboxUsername";
+            this.textboxUsername.Size = new System.Drawing.Size(345, 22);
+            this.textboxUsername.TabIndex = 1;
             // 
             // label1
             // 
@@ -60,12 +60,12 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "mật khẩu";
             // 
-            // textboxmatkhau
+            // textboxMatkhau
             // 
-            this.textboxmatkhau.Location = new System.Drawing.Point(274, 139);
-            this.textboxmatkhau.Name = "textboxmatkhau";
-            this.textboxmatkhau.Size = new System.Drawing.Size(345, 22);
-            this.textboxmatkhau.TabIndex = 3;
+            this.textboxMatkhau.Location = new System.Drawing.Point(274, 139);
+            this.textboxMatkhau.Name = "textboxMatkhau";
+            this.textboxMatkhau.Size = new System.Drawing.Size(345, 22);
+            this.textboxMatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
@@ -82,9 +82,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.textboxmatkhau);
+            this.Controls.Add(this.textboxMatkhau);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textboxusername);
+            this.Controls.Add(this.textboxUsername);
             this.Controls.Add(this.lbUserName);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -96,9 +96,9 @@
         #endregion
 
         private System.Windows.Forms.Label lbUserName;
-        private System.Windows.Forms.TextBox textboxusername;
+        private System.Windows.Forms.TextBox textboxUsername;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textboxmatkhau;
+        private System.Windows.Forms.TextBox textboxMatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
