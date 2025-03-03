@@ -361,3 +361,54 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.wrn
+*.err
+*.resources
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+global.json
+.nuget/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Roslyn
+*.Generated.cs
+
+# Entity Framework Migrations
+Migrations/
+
+# Publish outputs
+.publish/
+
+# User-specific files
+*.vsconfig
+*.psess
+*.pfx
+*.snk
+
+# Logs & temporary files
+logs/
+*.log
