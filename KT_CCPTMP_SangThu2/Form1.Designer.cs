@@ -30,6 +30,8 @@
         {
             this.lbUserName = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbUserName
@@ -48,11 +50,29 @@
             this.txtUserName.Size = new System.Drawing.Size(345, 22);
             this.txtUserName.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(110, 145);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Mật Khẩu";
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(274, 139);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(345, 22);
+            this.txtmatkhau.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.lbUserName);
             this.Name = "Form1";
@@ -66,6 +86,8 @@
 
         private System.Windows.Forms.Label lbUserName;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtmatkhau;
     }
 }
 
